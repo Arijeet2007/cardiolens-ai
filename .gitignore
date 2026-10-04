@@ -1,0 +1,12 @@
+node_modules/
+.sites-runtime/
+.sites-checkout-*/
+*.tar.gz
+*.tgz
+
+.openai/
+.env
+.env.*
+!.env.example
+tests/fixtures/oversized.csv
+preview.jpg

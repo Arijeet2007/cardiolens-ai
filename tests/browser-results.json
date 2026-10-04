@@ -1,0 +1,1106 @@
+{
+  "testedAt": "2026-10-04T17:28:54.880Z",
+  "browser": "Codex in-app Chromium browser",
+  "executions": 217,
+  "passedExecutions": 207,
+  "unresolvedFailures": [],
+  "resolutions": {
+    "Selected patient survives reload": "Fixed and passed selected-patient reload retest.",
+    "Assessment stores all confirmed measurements": "Test setup: LDL filter hid other records; selecting all types verified 14 records.",
+    "Responsive 320px: home": "Fixed landing header/action wrapping; final 320px retest passed.",
+    "Responsive 320px: assessment": "Fixed grid intrinsic sizing; all six steps passed at 320px.",
+    "Responsive 768px: assessment": "Fixed minimum column sizing; 768px retest passed.",
+    "Responsive 768px: reports": "Fixed report item wrapping; 768px retest passed.",
+    "Responsive retest 320px: home": "Fixed remaining navigation header overflow; final retest passed.",
+    "Clear empties measurement history": "Test assertion used measurements instead of records; final count check confirmed 0 records.",
+    "Load sample restores 50 measurements": "Test assertion used measurements instead of records; final count check confirmed 50 records.",
+    "Record keyboard Enter opens provenance dialog": "Fixed duplicate native keyboard activation; Enter and Space retests passed."
+  },
+  "checks": [
+    {
+      "label": "3-year chart filters to 2024–2026",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "1-year chart has latest calendar year only",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Chart renders systolic_bp",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Chart renders diastolic_bp",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Chart renders ldl",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Chart renders hdl",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Chart renders bmi",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Chart renders weight",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Chart renders hba1c",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Chart renders heart_rate",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Chart renders total_cholesterol",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Chart renders triglycerides",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Chart renders glucose",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Chart renders creatinine",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Chart renders egfr",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Chart renders uacr",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Chart point opens provenance details",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Notifications dialog executes",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Timeline selection 2022",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Timeline selection 2023",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Timeline selection 2024",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Timeline selection 2025",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Timeline selection 2026",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Doctor roster has six sample patients",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Alphabetical doctor sort",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Doctor filter Low",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Doctor filter Elevated",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Doctor filter Very high",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Doctor filter Moderate",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Doctor filter Required",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Case-insensitive doctor search",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Empty doctor search state",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Selected patient survives reload",
+      "status": "FAIL",
+      "details": ""
+    },
+    {
+      "label": "Selected patient survives reload (fixed)",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Doctor report preview names selected patient",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Doctor report shows actual available record count",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "CSV values are staged without adding records",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Import row removal preserves edited values",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Confirmed CSV saves only reviewed measurements",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Real imports remove fictional risk score",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Import rejects invalid-records.csv",
+      "status": "PASS",
+      "details": "Row 2: LDL cholesterol must be between 1 and 600 mg/dL."
+    },
+    {
+      "label": "Import rejects malformed.json",
+      "status": "PASS",
+      "details": "Unexpected end of JSON input"
+    },
+    {
+      "label": "Import rejects unsupported.pdf",
+      "status": "PASS",
+      "details": "PDF/image extraction is unavailable. No file was uploaded or stored. Add the measurements manually."
+    },
+    {
+      "label": "Import rejects oversized.csv",
+      "status": "PASS",
+      "details": "Choose a file under 5 MB."
+    },
+    {
+      "label": "FHIR import stages canonical BP units",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Discarded imports add no records",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Manual out-of-range values are rejected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Manual record is saved",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Editing updates without duplication",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Cancel deletion preserves records",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Confirmed FHIR records save",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Measurements persist after reload",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Medical history filtering",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Skip link preserves route",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Export history updates immediately",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Saved export control executes",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Emergency stop: Severe chest pain",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Emergency stop: Severe shortness of breath",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Emergency stop: Fainting",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Adult age boundary validation",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Fractional age rejected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "BMI automatically calculates 25",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Unknown height immediately clears BMI",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Assessment rejects inconsistent BP pair",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Assessment review keeps entered data",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Assessment saves without invented risk",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Submitted BMI is 25",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Assessment stores all confirmed measurements",
+      "status": "FAIL",
+      "details": "3"
+    },
+    {
+      "label": "Reassessment retains measurement date",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Repeated assessment avoids duplicate records",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "History retains its chosen filter",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Assessment stores all confirmed measurements (all types)",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Confirmed deletion removes one record",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Unsaved note survives chart interaction",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Saved clinical note persists on reload",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Page executes: home",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Page executes: login",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Page executes: register",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Page executes: dashboard",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Page executes: assessment",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Page executes: history",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Page executes: timeline",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Page executes: risk",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Page executes: reports",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Page executes: profile",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Page executes: doctor",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Page executes: patients",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Page executes: patient-detail?patient=p6",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Page executes: monitor",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Page executes: doctor-reports",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Page executes: models",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Page executes: versions",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Page executes: audit",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Page executes: evidence",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Responsive 320px: home",
+      "status": "FAIL",
+      "details": "{\"heading\":312.2124938964844,\"viewport\":305,\"width\":319}"
+    },
+    {
+      "label": "Responsive 320px: dashboard",
+      "status": "PASS",
+      "details": "{\"heading\":286.8000183105469,\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Responsive 320px: assessment",
+      "status": "FAIL",
+      "details": "{\"heading\":286.8000183105469,\"viewport\":305,\"width\":329}"
+    },
+    {
+      "label": "Responsive 320px: history",
+      "status": "PASS",
+      "details": "{\"heading\":219,\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Responsive 320px: patients",
+      "status": "PASS",
+      "details": "{\"heading\":286.8000183105469,\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Responsive 320px: patient-detail?patient=p1",
+      "status": "PASS",
+      "details": "{\"heading\":248.9250030517578,\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Responsive 320px: models",
+      "status": "PASS",
+      "details": "{\"heading\":286.8000183105469,\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Responsive 320px: reports",
+      "status": "PASS",
+      "details": "{\"heading\":286.8000183105469,\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Responsive 320px: profile",
+      "status": "PASS",
+      "details": "{\"heading\":284.2124938964844,\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Responsive 320px: evidence",
+      "status": "PASS",
+      "details": "{\"heading\":286.8000183105469,\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Responsive 390px: home",
+      "status": "PASS",
+      "details": "{\"heading\":352.20001220703125,\"viewport\":375,\"width\":375}"
+    },
+    {
+      "label": "Responsive 390px: dashboard",
+      "status": "PASS",
+      "details": "{\"heading\":322.8625183105469,\"viewport\":375,\"width\":375}"
+    },
+    {
+      "label": "Responsive 390px: assessment",
+      "status": "PASS",
+      "details": "{\"heading\":336.6625061035156,\"viewport\":375,\"width\":375}"
+    },
+    {
+      "label": "Responsive 390px: history",
+      "status": "PASS",
+      "details": "{\"heading\":219,\"viewport\":375,\"width\":375}"
+    },
+    {
+      "label": "Responsive 390px: patients",
+      "status": "PASS",
+      "details": "{\"heading\":345.0375061035156,\"viewport\":375,\"width\":375}"
+    },
+    {
+      "label": "Responsive 390px: patient-detail?patient=p1",
+      "status": "PASS",
+      "details": "{\"heading\":248.9250030517578,\"viewport\":375,\"width\":375}"
+    },
+    {
+      "label": "Responsive 390px: models",
+      "status": "PASS",
+      "details": "{\"heading\":357.20001220703125,\"viewport\":375,\"width\":375}"
+    },
+    {
+      "label": "Responsive 390px: reports",
+      "status": "PASS",
+      "details": "{\"heading\":357.20001220703125,\"viewport\":375,\"width\":375}"
+    },
+    {
+      "label": "Responsive 390px: profile",
+      "status": "PASS",
+      "details": "{\"heading\":284.2124938964844,\"viewport\":375,\"width\":375}"
+    },
+    {
+      "label": "Responsive 390px: evidence",
+      "status": "PASS",
+      "details": "{\"heading\":357.20001220703125,\"viewport\":375,\"width\":375}"
+    },
+    {
+      "label": "Responsive 768px: home",
+      "status": "PASS",
+      "details": "{\"heading\":363.8999938964844,\"viewport\":753,\"width\":753}"
+    },
+    {
+      "label": "Responsive 768px: dashboard",
+      "status": "PASS",
+      "details": "{\"heading\":488.27500915527344,\"viewport\":753,\"width\":753}"
+    },
+    {
+      "label": "Responsive 768px: assessment",
+      "status": "FAIL",
+      "details": "{\"heading\":612.4500122070312,\"viewport\":753,\"width\":998}"
+    },
+    {
+      "label": "Responsive 768px: history",
+      "status": "PASS",
+      "details": "{\"heading\":427.08750915527344,\"viewport\":753,\"width\":753}"
+    },
+    {
+      "label": "Responsive 768px: patients",
+      "status": "PASS",
+      "details": "{\"heading\":622.1750183105469,\"viewport\":753,\"width\":753}"
+    },
+    {
+      "label": "Responsive 768px: patient-detail?patient=p1",
+      "status": "PASS",
+      "details": "{\"heading\":446.77500915527344,\"viewport\":753,\"width\":753}"
+    },
+    {
+      "label": "Responsive 768px: models",
+      "status": "PASS",
+      "details": "{\"heading\":616.3250122070312,\"viewport\":753,\"width\":753}"
+    },
+    {
+      "label": "Responsive 768px: reports",
+      "status": "FAIL",
+      "details": "{\"heading\":538.5125122070312,\"viewport\":753,\"width\":838}"
+    },
+    {
+      "label": "Responsive 768px: profile",
+      "status": "PASS",
+      "details": "{\"heading\":504.2124938964844,\"viewport\":753,\"width\":753}"
+    },
+    {
+      "label": "Responsive 768px: evidence",
+      "status": "PASS",
+      "details": "{\"heading\":632.1375122070312,\"viewport\":753,\"width\":753}"
+    },
+    {
+      "label": "Responsive 1280px: home",
+      "status": "PASS",
+      "details": "{\"heading\":597.4000015258789,\"viewport\":1265,\"width\":1265}"
+    },
+    {
+      "label": "Responsive 1280px: dashboard",
+      "status": "PASS",
+      "details": "{\"heading\":636.125,\"viewport\":1265,\"width\":1265}"
+    },
+    {
+      "label": "Responsive 1280px: assessment",
+      "status": "PASS",
+      "details": "{\"heading\":652.4500122070312,\"viewport\":1280,\"width\":1280}"
+    },
+    {
+      "label": "Responsive 1280px: history",
+      "status": "PASS",
+      "details": "{\"heading\":479.25,\"viewport\":1265,\"width\":1265}"
+    },
+    {
+      "label": "Responsive 1280px: patients",
+      "status": "PASS",
+      "details": "{\"heading\":662.1750183105469,\"viewport\":1280,\"width\":1280}"
+    },
+    {
+      "label": "Responsive 1280px: patient-detail?patient=p1",
+      "status": "PASS",
+      "details": "{\"heading\":508.9250030517578,\"viewport\":1265,\"width\":1265}"
+    },
+    {
+      "label": "Responsive 1280px: models",
+      "status": "PASS",
+      "details": "{\"heading\":656.3250122070312,\"viewport\":1265,\"width\":1265}"
+    },
+    {
+      "label": "Responsive 1280px: reports",
+      "status": "PASS",
+      "details": "{\"heading\":722.0750122070312,\"viewport\":1280,\"width\":1280}"
+    },
+    {
+      "label": "Responsive 1280px: profile",
+      "status": "PASS",
+      "details": "{\"heading\":544.2124938964844,\"viewport\":1280,\"width\":1280}"
+    },
+    {
+      "label": "Responsive 1280px: evidence",
+      "status": "PASS",
+      "details": "{\"heading\":672.1375122070312,\"viewport\":1265,\"width\":1265}"
+    },
+    {
+      "label": "Responsive retest 320px: home",
+      "status": "FAIL",
+      "details": "{\"viewport\":305,\"width\":318}"
+    },
+    {
+      "label": "Responsive retest 320px: dashboard",
+      "status": "PASS",
+      "details": "{\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Responsive retest 320px: assessment",
+      "status": "PASS",
+      "details": "{\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Responsive retest 320px: history",
+      "status": "PASS",
+      "details": "{\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Responsive retest 320px: patients",
+      "status": "PASS",
+      "details": "{\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Responsive retest 320px: patient-detail?patient=p1",
+      "status": "PASS",
+      "details": "{\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Responsive retest 320px: models",
+      "status": "PASS",
+      "details": "{\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Responsive retest 320px: reports",
+      "status": "PASS",
+      "details": "{\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Responsive retest 320px: profile",
+      "status": "PASS",
+      "details": "{\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Responsive retest 320px: evidence",
+      "status": "PASS",
+      "details": "{\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Responsive retest 390px: home",
+      "status": "PASS",
+      "details": "{\"viewport\":375,\"width\":375}"
+    },
+    {
+      "label": "Responsive retest 390px: dashboard",
+      "status": "PASS",
+      "details": "{\"viewport\":375,\"width\":375}"
+    },
+    {
+      "label": "Responsive retest 390px: assessment",
+      "status": "PASS",
+      "details": "{\"viewport\":375,\"width\":375}"
+    },
+    {
+      "label": "Responsive retest 390px: history",
+      "status": "PASS",
+      "details": "{\"viewport\":375,\"width\":375}"
+    },
+    {
+      "label": "Responsive retest 390px: patients",
+      "status": "PASS",
+      "details": "{\"viewport\":375,\"width\":375}"
+    },
+    {
+      "label": "Responsive retest 390px: patient-detail?patient=p1",
+      "status": "PASS",
+      "details": "{\"viewport\":375,\"width\":375}"
+    },
+    {
+      "label": "Responsive retest 390px: models",
+      "status": "PASS",
+      "details": "{\"viewport\":375,\"width\":375}"
+    },
+    {
+      "label": "Responsive retest 390px: reports",
+      "status": "PASS",
+      "details": "{\"viewport\":375,\"width\":375}"
+    },
+    {
+      "label": "Responsive retest 390px: profile",
+      "status": "PASS",
+      "details": "{\"viewport\":375,\"width\":375}"
+    },
+    {
+      "label": "Responsive retest 390px: evidence",
+      "status": "PASS",
+      "details": "{\"viewport\":375,\"width\":375}"
+    },
+    {
+      "label": "Responsive retest 768px: home",
+      "status": "PASS",
+      "details": "{\"viewport\":753,\"width\":753}"
+    },
+    {
+      "label": "Responsive retest 768px: dashboard",
+      "status": "PASS",
+      "details": "{\"viewport\":753,\"width\":753}"
+    },
+    {
+      "label": "Responsive retest 768px: assessment",
+      "status": "PASS",
+      "details": "{\"viewport\":753,\"width\":753}"
+    },
+    {
+      "label": "Responsive retest 768px: history",
+      "status": "PASS",
+      "details": "{\"viewport\":753,\"width\":753}"
+    },
+    {
+      "label": "Responsive retest 768px: patients",
+      "status": "PASS",
+      "details": "{\"viewport\":753,\"width\":753}"
+    },
+    {
+      "label": "Responsive retest 768px: patient-detail?patient=p1",
+      "status": "PASS",
+      "details": "{\"viewport\":753,\"width\":753}"
+    },
+    {
+      "label": "Responsive retest 768px: models",
+      "status": "PASS",
+      "details": "{\"viewport\":753,\"width\":753}"
+    },
+    {
+      "label": "Responsive retest 768px: reports",
+      "status": "PASS",
+      "details": "{\"viewport\":753,\"width\":753}"
+    },
+    {
+      "label": "Responsive retest 768px: profile",
+      "status": "PASS",
+      "details": "{\"viewport\":753,\"width\":753}"
+    },
+    {
+      "label": "Responsive retest 768px: evidence",
+      "status": "PASS",
+      "details": "{\"viewport\":753,\"width\":753}"
+    },
+    {
+      "label": "Responsive retest 1280px: home",
+      "status": "PASS",
+      "details": "{\"viewport\":1265,\"width\":1265}"
+    },
+    {
+      "label": "Responsive retest 1280px: dashboard",
+      "status": "PASS",
+      "details": "{\"viewport\":1265,\"width\":1265}"
+    },
+    {
+      "label": "Responsive retest 1280px: assessment",
+      "status": "PASS",
+      "details": "{\"viewport\":1280,\"width\":1280}"
+    },
+    {
+      "label": "Responsive retest 1280px: history",
+      "status": "PASS",
+      "details": "{\"viewport\":1265,\"width\":1265}"
+    },
+    {
+      "label": "Responsive retest 1280px: patients",
+      "status": "PASS",
+      "details": "{\"viewport\":1280,\"width\":1280}"
+    },
+    {
+      "label": "Responsive retest 1280px: patient-detail?patient=p1",
+      "status": "PASS",
+      "details": "{\"viewport\":1265,\"width\":1265}"
+    },
+    {
+      "label": "Responsive retest 1280px: models",
+      "status": "PASS",
+      "details": "{\"viewport\":1265,\"width\":1265}"
+    },
+    {
+      "label": "Responsive retest 1280px: reports",
+      "status": "PASS",
+      "details": "{\"viewport\":1280,\"width\":1280}"
+    },
+    {
+      "label": "Responsive retest 1280px: profile",
+      "status": "PASS",
+      "details": "{\"viewport\":1280,\"width\":1280}"
+    },
+    {
+      "label": "Responsive retest 1280px: evidence",
+      "status": "PASS",
+      "details": "{\"viewport\":1265,\"width\":1265}"
+    },
+    {
+      "label": "Landing 320px final retest",
+      "status": "PASS",
+      "details": "{\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Closed mobile navigation excluded from focus",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Mobile navigation opens",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Mobile overlay closes navigation",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Measurement dialog fits 320px",
+      "status": "PASS",
+      "details": "{\"modal\":288.8000183105469,\"scroll\":305,\"width\":305}"
+    },
+    {
+      "label": "Login workspace patient",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Login workspace doctor",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Login workspace admin",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Sidebar role switch doctor",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Sidebar role switch admin",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Sidebar role switch patient",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Blank registration stays on form",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Whitespace-only profile rejected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Session profile creation doctor",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Session profile creation admin",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Session profile creation patient",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Registration trims profile name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Clear cancellation preserves profile",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Sample load cancellation preserves profile",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Clear completes with no sample probability",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Clear empties measurement history",
+      "status": "FAIL",
+      "details": ""
+    },
+    {
+      "label": "Load sample restores sample dashboard",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Load sample restores 50 measurements",
+      "status": "FAIL",
+      "details": ""
+    },
+    {
+      "label": "Sample history final count",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Clear history final count",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Reset clears unsaved doctor note",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Model metrics honestly unmeasured",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Assessment step 1 fits 320px",
+      "status": "PASS",
+      "details": "{\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Assessment step 2 fits 320px",
+      "status": "PASS",
+      "details": "{\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Assessment step 3 fits 320px",
+      "status": "PASS",
+      "details": "{\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Assessment step 4 fits 320px",
+      "status": "PASS",
+      "details": "{\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Assessment step 5 fits 320px",
+      "status": "PASS",
+      "details": "{\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Assessment step 6 fits 320px",
+      "status": "PASS",
+      "details": "{\"viewport\":305,\"width\":305}"
+    },
+    {
+      "label": "Assessment back button restores previous step",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Audit displays saved note activity",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Audit activity survives reload",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "All four model versions labelled planned",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Record keyboard Enter opens provenance dialog",
+      "status": "FAIL",
+      "details": ""
+    },
+    {
+      "label": "Record keyboard Enter opens provenance dialog (fixed)",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Record keyboard Space opens provenance dialog",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Manual date field current default and limit",
+      "status": "PASS",
+      "details": "{\"max\":\"2026-10-04\",\"value\":\"2026-10-04\"}"
+    },
+    {
+      "label": "Template download control executes",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "label": "Final dashboard renders",
+      "status": "PASS",
+      "details": ""
+    }
+  ]
+}
